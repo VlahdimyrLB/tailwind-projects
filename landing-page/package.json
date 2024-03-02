@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-projects",
+  "version": "1.0.0",
+  "description": "This repo contains all my Tailwind projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./cs/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./cs/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
